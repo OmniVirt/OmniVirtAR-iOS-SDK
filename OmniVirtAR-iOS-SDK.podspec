@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name = "OmniVirtAR-iOS-SDK"
   s.module_name = "OmniVirtAR"
-  s.version = "1.0.1"
+  s.version = "1.1.0"
   s.summary = "OmniVirt Augmented Reality SDK for iOS"
   s.homepage = "https://www.omnivirt.com"
   s.license = { :type => "MIT", :file => "LICENSE" }
-  s.authors = { "OmniVirt Team" => "contact@omnivirt.com" }
+  s.authors = { "OmniVirt" => "contact@omnivirt.com" }
   s.social_media_url = "https://www.facebook.com/omnivirt"
 
   s.platform = :ios, "11.0"
