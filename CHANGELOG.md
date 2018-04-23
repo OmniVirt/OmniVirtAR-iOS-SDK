@@ -2,6 +2,18 @@
 
 Details changes in each release of OmniVirtAR-iOS-SDK. OmniVirtAR-iOS-SDK follows [semantic versioning](http://semver.org/).
 
+## [1.2.0](https://github.com/OmniVirt/OmniVirtAR-iOS-SDK/tree/v1.2.0) (04/23/2018)
+
+### New Features
+* Add support for 3D animation in the industry-standard glTF 2.0 file format.
+* Add support for AR Ad performance tracking & measurement:
+  * The number of times a user has entered an AR advertisement.
+  * The number of times a user has viewed an AR advertisement.
+  * The number of times a user has clicked on a link to the destination website.
+  * The amount of time a user has spent on viewing an AR advertisement.
+  * The amount of time that elapsed from the time a user has entered into an AR advertisement until the time the user closed it.
+* Add format versioning to AR ad unit for backward compatibility.
+
 ## [1.1.0](https://github.com/OmniVirt/OmniVirtAR-iOS-SDK/tree/v1.1.0) (04/13/2018)
 
 ### New Features
