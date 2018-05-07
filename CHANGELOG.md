@@ -2,6 +2,18 @@
 
 Details changes in each release of OmniVirtAR-iOS-SDK. OmniVirtAR-iOS-SDK follows [semantic versioning](http://semver.org/).
 
+## [1.2.1](https://github.com/OmniVirt/OmniVirtAR-iOS-SDK/tree/v1.2.1) (05/07/2018)
+
+### Enhancements
+* Added support for loading GLB file format
+* Improved rendering frame rate and reduce stuttering when loading 3D assets into the scene.
+
+### Bug Fixes
+* Fixed a bug where the AR ad won’t show up when we open it for the first time due to camera access permission.
+* Fixed an issue where the AR ad won’t display the error page when it failed to download the 3D model file.
+* Fixed an issue where the AR ad won’t re-download 3D model from the server after it failed to load it from cache.
+* Fixed a bug which can cause occasional crashes due to unexpected response from the server.
+
 ## [1.2.0](https://github.com/OmniVirt/OmniVirtAR-iOS-SDK/tree/v1.2.0) (04/23/2018)
 
 ### New Features
